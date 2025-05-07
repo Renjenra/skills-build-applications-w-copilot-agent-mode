@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #1a237e;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #ffd600 !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+}
+
+.card-title {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: linear-gradient(90deg, #42a5f5 0%, #1976d2 100%);
+  color: #ffd600;
+}
+
+table {
+  background: #e3f2fd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: #1976d2 !important;
+  color: #fff !important;
+}
+
+tr:nth-child(even) {
+  background: #bbdefb;
+}
+
+tr:hover {
+  background: #90caf9;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd600;
+  text-decoration: underline;
+}
