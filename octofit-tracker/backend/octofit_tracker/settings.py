@@ -27,7 +27,7 @@ DEBUG = True
 
 
 # Allow all hosts
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1', 'obscure-tribble-57w75grrp6j37rx-8000.app.github.dev']
 
 
 # Application definition
